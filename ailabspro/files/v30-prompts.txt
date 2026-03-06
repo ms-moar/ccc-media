@@ -1,0 +1,70 @@
+Claude prompt:
+You are a senior front-end engineer working inside an existing web project.
+<context>
+I am building a camera product landing page.
+The project already contains assets and basic layout structure.
+Project assets:
+
+assets/camera.webp → full camera image animated
+
+Goal:
+
+Create a scroll-driven animation in the hero section where the camera visually animates as the user scrolls.
+
+</context>
+<requirements>
+
+Use modern, production-ready front-end practices
+Animation must be tied to scroll position (not time-based)
+The animation should feel premium and product-focused (Apple / Sony-style)
+Use CSS + JavaScript (GSAP ScrollTrigger is allowed if appropriate)
+No unnecessary abstractions or libraries
+Optimize for performance (no layout thrashing, no heavy reflows)
+
+</requirements>
+<animation_behavior>
+
+Camera starts as a single assembled product at top of page
+As the user scrolls:
+Camera layers subtly separate in Z/Y axis OR fade/translate outward
+Motion should be smooth, controlled, and minimal
+Layers should stay aligned to form the camera silhouette
+
+On reverse scroll, animation should cleanly reverse
+
+</animation_behavior>
+<implementation_details>
+
+Use assets/camera.webp as the initial static hero image
+Stack camera layers using absolute positioning
+Ensure responsive behavior (desktop first, graceful mobile fallback)
+Keep all animation logic scoped to the hero section
+
+</implementation_details>
+<constraints>
+
+Do NOT redesign the page
+Do NOT generate placeholder assets
+Do NOT explain concepts unless necessary
+Prefer clean, readable code over clever tricks
+
+</constraints>
+<output>
+
+Update the code for the landing page and hero section components
+
+</output>
+
+Flow:
+Create a smooth transition animation between two frames: - Starting frame: An intact camera - Ending frame: The same camera opened up Please generate a short, seamless animation that visually transforms the camera from its closed state to the opened state. Include the following specifications: 1. The animation length should be approximately 3-5 seconds. 2. Use a gradual, realistic transition that emphasizes the opening process. 3. The style should be clear and detailed, suitable for a technical demonstration. 4. Provide the animation as a high-quality video
+
+Whisk - Camera front angle:
+A photorealistic, front-facing view of a professional-grade Sony DSLR camera, centered in the frame against a deep black or dark charcoal background. The camera should appear sleek, premium, and highly detailed, with realistic materials such as matte metal, textured grip, and a high-quality glass lens. Subtle reflections on the lens and body should enhance realism without glare. Studio-style lighting with soft highlights and controlled shadows to emphasize form and depth. The Sony branding should be visible but not exaggerated. Ultra-high realism, sharp focus, professional product photography style.
+
+Resolution: 1920x1080 or higher, cinematic quality, shallow depth of field, clean composition.
+
+Whisk - Camera with components exploded:
+A side-facing (profile) view of the same professional Sony DSLR camera, presented as a technical cutaway or exploded cross-section. The camera lens is sliced open to reveal internal layers, including lens elements, sensor, mirror mechanism. Each lens layer should be clearly separated and precisely aligned, showing structure and depth. Technical, schematic-style rendering with clean edges, accurate proportions, and high clarity. Neutral dark or gradient background to maintain focus on the internal components. Consistent lighting with soft, even illumination to clearly showcase all layers.
+
+Style: technical illustration meets photorealism, product breakdown visualization, high-detail precision.
+Resolution: 1920x1080 or higher.

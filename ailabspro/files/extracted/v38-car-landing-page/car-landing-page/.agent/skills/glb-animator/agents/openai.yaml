@@ -1,0 +1,4 @@
+interface:
+  display_name: "GLB Animator"
+  short_description: "Animate GLBs with R3F + Theatre.js"
+  default_prompt: "Use $glb-animator to animate the provided GLB with scroll-bound Theatre timelines."

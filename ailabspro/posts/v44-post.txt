@@ -1,0 +1,44 @@
+POST: V44
+URL: https://www.ailabspro.io/community/topics/203871/posts/732596-v44
+Topic: Video Resources
+Posted by: AI-LABS (Creator)
+Posted: 3d ago (from ~2026-02-22)
+
+TITLE: V44
+
+CONTENT:
+📁 Files
+- 10-openclaw-uses.zip (Resources)
+
+ATTACHED FILES:
+- 10-openclaw-uses.zip: https://s3.us-west-2.amazonaws.com/content.podia.com/dmrxqh2r0b1eptknuc0apq5qnbd6
+  → Saved as: v44-10-openclaw-uses.zip
+  → Contents: prompts (9 use-case .md files), skills (aws-cost-watchdog, api-cost-aggregator)
+
+EMBEDDED VIDEO:
+- YouTube: https://www.youtube.com/embed/hp7n45JqvIw?rel=0
+- YouTube Watch URL: https://www.youtube.com/watch?v=hp7n45JqvIw
+
+LINKS MENTIONED:
+- https://www.youtube.com/watch?v=hp7n45JqvIw (YouTube video)
+- https://s3.us-west-2.amazonaws.com/content.podia.com/dmrxqh2r0b1eptknuc0apq5qnbd6 (10-openclaw-uses.zip download)
+
+COMMENTS: 0
+
+ZIP CONTENTS:
+- 10-openclaw-uses/README.md
+- 10-openclaw-uses/prompts/01-api-cost-watchdog.md
+- 10-openclaw-uses/prompts/02-dependency-maintenance.md
+- 10-openclaw-uses/prompts/03-research-across-sites.md
+- 10-openclaw-uses/prompts/04-monitor-hosted-apps.md
+- 10-openclaw-uses/prompts/05-seo-monitor.md
+- 10-openclaw-uses/prompts/06-build-overnight.md
+- 10-openclaw-uses/prompts/07-multi-model-orchestration.md
+- 10-openclaw-uses/prompts/08-lead-generation.md
+- 10-openclaw-uses/prompts/09-email-assistant.md
+- 10-openclaw-uses/skills/aws-cost-watchdog/SKILL.md
+- 10-openclaw-uses/skills/api-cost-aggregator/SKILL.md
+- 10-openclaw-uses/skills/aws-cost-watchdog/bin/budget-alert.sh
+- 10-openclaw-uses/skills/aws-cost-watchdog/bin/check-aws-costs.sh
+- 10-openclaw-uses/skills/aws-cost-watchdog/bin/check-bedrock-usage.sh
+- 10-openclaw-uses/skills/api-cost-aggregator/bin/aggregate-costs.sh

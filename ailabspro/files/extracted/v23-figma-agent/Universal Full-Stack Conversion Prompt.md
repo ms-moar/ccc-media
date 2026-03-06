@@ -1,0 +1,1 @@
+Convert this React + Vite component library application into a production-ready full-stack Next.js application with Supabase backend.

@@ -1,0 +1,30 @@
+POST: V43
+URL: https://www.ailabspro.io/community/topics/203871/posts/731648-v43
+Topic: Video Resources
+Posted by: AI-LABS (Creator)
+Posted: 6d ago (from ~2026-02-19)
+
+TITLE: V43
+
+CONTENT:
+📁 Files
+- Guides (Guides.zip)
+
+ATTACHED FILES:
+- Guides.zip: https://s3.us-west-2.amazonaws.com/content.podia.com/ywo93zpj1ns7gl1g469lj4s1qv6d
+  → Saved as: v43-guides.zip (Guides.zip)
+  → Contents: webmcp-html-guide.md, webmcp-nextjs-guide.md
+
+EMBEDDED VIDEO:
+- YouTube: https://www.youtube.com/embed/uprZUcv0FSc?rel=0
+- YouTube Watch URL: https://www.youtube.com/watch?v=uprZUcv0FSc
+
+LINKS MENTIONED:
+- https://www.youtube.com/watch?v=uprZUcv0FSc (YouTube video)
+- https://s3.us-west-2.amazonaws.com/content.podia.com/ywo93zpj1ns7gl1g469lj4s1qv6d (Guides.zip download)
+
+COMMENTS: 0
+
+ZIP CONTENTS:
+- webmcp-html-guide.md (19KB - WebMCP HTML guide)
+- webmcp-nextjs-guide.md (31KB - WebMCP Next.js guide)

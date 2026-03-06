@@ -1,0 +1,437 @@
+{
+  "project": {
+    "name": "Python Code Compiler MVP",
+    "description": "Minimal viable Python compiler with Monaco Editor, Material UI, multi-file support, and Next.js server-side execution",
+    "tech_stack": [
+      "Next.js",
+      "Monaco Editor",
+      "Material UI",
+      "Python"
+    ]
+  },
+  "features": [
+    {
+      "category": "editor",
+      "id": "ED-001",
+      "description": "Monaco Editor loads with Python syntax highlighting",
+      "steps": [
+        "Navigate to main interface",
+        "Verify Monaco Editor loads in left pane",
+        "Type Python code",
+        "Verify syntax highlighting works",
+        "Verify line numbers displayed"
+      ],
+      "passes": true
+    },
+    {
+      "category": "editor",
+      "id": "ED-002",
+      "description": "Basic editing operations work (type, delete, undo, redo)",
+      "steps": [
+        "Type code in editor",
+        "Delete text with backspace",
+        "Press Ctrl+Z to undo",
+        "Press Ctrl+Y to redo",
+        "Verify all operations work"
+      ],
+      "passes": true
+    },
+    {
+      "category": "editor",
+      "id": "ED-003",
+      "description": "Code indentation works for Python",
+      "steps": [
+        "Type Python code",
+        "Press Tab to indent",
+        "Verify proper indentation",
+        "Press Shift+Tab to outdent"
+      ],
+      "passes": true
+    },
+    {
+      "category": "file_management",
+      "id": "FM-001",
+      "description": "Create new file from sidebar",
+      "steps": [
+        "Click 'New File' button",
+        "Enter filename with .py extension",
+        "Verify file appears in sidebar",
+        "Verify file opens in editor"
+      ],
+      "passes": true
+    },
+    {
+      "category": "file_management",
+      "id": "FM-002",
+      "description": "Open file by clicking in sidebar",
+      "steps": [
+        "Click on file in sidebar",
+        "Verify file opens in editor",
+        "Verify content displays correctly"
+      ],
+      "passes": true
+    },
+    {
+      "category": "file_management",
+      "id": "FM-003",
+      "description": "Multiple files open as tabs",
+      "steps": [
+        "Open multiple files",
+        "Verify each opens in new tab",
+        "Click between tabs",
+        "Verify correct content for each"
+      ],
+      "passes": true
+    },
+    {
+      "category": "file_management",
+      "id": "FM-004",
+      "description": "Close file tab",
+      "steps": [
+        "Open a file",
+        "Click close (X) on tab",
+        "Verify save prompt if unsaved",
+        "Verify tab closes"
+      ],
+      "passes": true
+    },
+    {
+      "category": "file_management",
+      "id": "FM-005",
+      "description": "Save file with Ctrl+S",
+      "steps": [
+        "Edit a file",
+        "Press Ctrl+S",
+        "Verify file saves",
+        "Verify unsaved indicator gone"
+      ],
+      "passes": true
+    },
+    {
+      "category": "file_management",
+      "id": "FM-006",
+      "description": "Delete file from sidebar",
+      "steps": [
+        "Right-click file in sidebar",
+        "Select 'Delete'",
+        "Confirm deletion",
+        "Verify file removed"
+      ],
+      "passes": true
+    },
+    {
+      "category": "file_management",
+      "id": "FM-007",
+      "description": "Unsaved changes indicator on tabs",
+      "steps": [
+        "Open and edit a file",
+        "Verify indicator appears on tab",
+        "Save file",
+        "Verify indicator disappears"
+      ],
+      "passes": true
+    },
+    {
+      "category": "code_execution",
+      "id": "CE-001",
+      "description": "Run Python code and display output",
+      "steps": [
+        "Write Python code with print()",
+        "Click 'Run' button",
+        "Verify output in right pane"
+      ],
+      "passes": true
+    },
+    {
+      "category": "code_execution",
+      "id": "CE-002",
+      "description": "Syntax errors display correctly",
+      "steps": [
+        "Write code with syntax error",
+        "Run the code",
+        "Verify error message shown",
+        "Verify line number included"
+      ],
+      "passes": true
+    },
+    {
+      "category": "code_execution",
+      "id": "CE-003",
+      "description": "Runtime errors display correctly",
+      "steps": [
+        "Write code causing runtime error",
+        "Run the code",
+        "Verify traceback appears"
+      ],
+      "passes": true
+    },
+    {
+      "category": "code_execution",
+      "id": "CE-004",
+      "description": "Stop running code",
+      "steps": [
+        "Write infinite loop",
+        "Click 'Run'",
+        "Click 'Stop'",
+        "Verify execution stops"
+      ],
+      "passes": true
+    },
+    {
+      "category": "code_execution",
+      "id": "CE-005",
+      "description": "Import local files works",
+      "steps": [
+        "Create helper.py with function",
+        "Create main.py importing helper",
+        "Run main.py",
+        "Verify import works"
+      ],
+      "passes": true
+    },
+    {
+      "category": "code_execution",
+      "id": "CE-006",
+      "description": "Standard library imports work",
+      "steps": [
+        "Write code importing math, json",
+        "Run the code",
+        "Verify imports work"
+      ],
+      "passes": true
+    },
+    {
+      "category": "code_execution",
+      "id": "CE-007",
+      "description": "Clear output button works",
+      "steps": [
+        "Run code to generate output",
+        "Click 'Clear' button",
+        "Verify output cleared"
+      ],
+      "passes": true
+    },
+    {
+      "category": "theme",
+      "id": "TH-001",
+      "description": "Dark theme applies correctly",
+      "steps": [
+        "Select dark theme",
+        "Verify editor background dark",
+        "Verify UI components update"
+      ],
+      "passes": true
+    },
+    {
+      "category": "theme",
+      "id": "TH-002",
+      "description": "Light theme applies correctly",
+      "steps": [
+        "Select light theme",
+        "Verify editor background light",
+        "Verify UI components update"
+      ],
+      "passes": true
+    },
+    {
+      "category": "theme",
+      "id": "TH-003",
+      "description": "VSCode Monokai theme works",
+      "steps": [
+        "Select 'Monokai' from theme selector",
+        "Verify Monokai colors apply to editor",
+        "Verify syntax highlighting matches scheme"
+      ],
+      "passes": true
+    },
+    {
+      "category": "theme",
+      "id": "TH-004",
+      "description": "VSCode One Dark Pro theme works",
+      "steps": [
+        "Select 'One Dark Pro' from theme selector",
+        "Verify One Dark colors apply",
+        "Verify syntax highlighting matches scheme"
+      ],
+      "passes": true
+    },
+    {
+      "category": "theme",
+      "id": "TH-005",
+      "description": "VSCode Dracula theme works",
+      "steps": [
+        "Select 'Dracula' from theme selector",
+        "Verify Dracula colors apply",
+        "Verify syntax highlighting matches scheme"
+      ],
+      "passes": true
+    },
+    {
+      "category": "theme",
+      "id": "TH-006",
+      "description": "VSCode GitHub theme works",
+      "steps": [
+        "Select 'GitHub Light' or 'GitHub Dark'",
+        "Verify GitHub colors apply",
+        "Verify syntax highlighting matches scheme"
+      ],
+      "passes": true
+    },
+    {
+      "category": "theme",
+      "id": "TH-007",
+      "description": "VSCode Solarized theme works",
+      "steps": [
+        "Select 'Solarized Light' or 'Solarized Dark'",
+        "Verify Solarized colors apply",
+        "Verify syntax highlighting matches scheme"
+      ],
+      "passes": true
+    },
+    {
+      "category": "theme",
+      "id": "TH-008",
+      "description": "Theme preference persists after refresh",
+      "steps": [
+        "Select a non-default theme",
+        "Refresh the browser",
+        "Verify selected theme is still applied"
+      ],
+      "passes": true
+    },
+    {
+      "category": "ui_layout",
+      "id": "UI-001",
+      "description": "Two-pane layout displays correctly",
+      "steps": [
+        "Open application",
+        "Verify editor in left pane",
+        "Verify output in right pane",
+        "Verify sidebar with file tree"
+      ],
+      "passes": true
+    },
+    {
+      "category": "ui_layout",
+      "id": "UI-002",
+      "description": "Pane divider is resizable",
+      "steps": [
+        "Drag divider left/right",
+        "Verify panes resize"
+      ],
+      "passes": true
+    },
+    {
+      "category": "ui_layout",
+      "id": "UI-003",
+      "description": "Sidebar toggle works",
+      "steps": [
+        "Click sidebar toggle",
+        "Verify sidebar hides",
+        "Click again",
+        "Verify sidebar shows"
+      ],
+      "passes": true
+    },
+    {
+      "category": "ui_layout",
+      "id": "UI-004",
+      "description": "Toolbar with Run/Stop buttons visible",
+      "steps": [
+        "Verify 'Run' button visible",
+        "Verify 'Stop' button visible",
+        "Verify buttons clickable"
+      ],
+      "passes": true
+    },
+    {
+      "category": "ui_layout",
+      "id": "UI-005",
+      "description": "Tab bar shows open files",
+      "steps": [
+        "Open multiple files",
+        "Verify tabs appear",
+        "Verify active tab highlighted"
+      ],
+      "passes": true
+    },
+    {
+      "category": "output_console",
+      "id": "OC-001",
+      "description": "Output panel displays print output",
+      "steps": [
+        "Write code with print()",
+        "Run code",
+        "Verify output in right pane"
+      ],
+      "passes": true
+    },
+    {
+      "category": "output_console",
+      "id": "OC-002",
+      "description": "Output panel is scrollable",
+      "steps": [
+        "Generate lots of output",
+        "Verify scrollbar appears",
+        "Scroll works correctly"
+      ],
+      "passes": true
+    },
+    {
+      "category": "output_console",
+      "id": "OC-003",
+      "description": "Errors styled differently",
+      "steps": [
+        "Run code with error",
+        "Verify error text is distinct (red)",
+        "Normal output styled differently"
+      ],
+      "passes": true
+    },
+    {
+      "category": "nextjs_server",
+      "id": "NJ-001",
+      "description": "Python code executes server-side",
+      "steps": [
+        "Run Python code",
+        "Verify API call in network tab",
+        "Verify result returned"
+      ],
+      "passes": true
+    },
+    {
+      "category": "nextjs_server",
+      "id": "NJ-002",
+      "description": "File operations use server API",
+      "steps": [
+        "Create and save file",
+        "Verify API requests made",
+        "Verify files persist"
+      ],
+      "passes": true
+    },
+    {
+      "category": "nextjs_server",
+      "id": "NJ-003",
+      "description": "Execution timeout for long-running code",
+      "steps": [
+        "Write infinite loop",
+        "Run without stopping",
+        "Verify auto-timeout triggers"
+      ],
+      "passes": true
+    }
+  ],
+  "summary": {
+    "total_features": 36,
+    "categories": {
+      "editor": 3,
+      "file_management": 7,
+      "code_execution": 7,
+      "theme": 8,
+      "ui_layout": 5,
+      "output_console": 3,
+      "nextjs_server": 3
+    }
+  }
+}

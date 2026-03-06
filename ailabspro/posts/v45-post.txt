@@ -1,0 +1,26 @@
+POST: V45
+URL: https://www.ailabspro.io/community/topics/203871/posts/733610-v45
+Topic: Video Resources
+Posted by: AI-LABS (Creator)
+Posted: 2h ago (from ~2026-02-25)
+
+TITLE: V45
+
+CONTENT:
+📁 Files
+- Resources (claude-superpowers.zip)
+
+ATTACHED FILES:
+- Resources: https://s3.us-west-2.amazonaws.com/content.podia.com/2cb3jdglxweezd46ar7yv9implpd
+  → Saved as: v45-resources.zip (claude-superpowers.zip)
+  → Contents: claude-superpowers/README.md, claude-superpowers/CLAUDE.md
+
+EMBEDDED VIDEO:
+- YouTube: https://www.youtube.com/embed/romGzY0Xu0s?rel=0
+- YouTube Watch URL: https://www.youtube.com/watch?v=romGzY0Xu0s
+
+LINKS MENTIONED:
+- https://www.youtube.com/watch?v=romGzY0Xu0s (YouTube video)
+- https://s3.us-west-2.amazonaws.com/content.podia.com/2cb3jdglxweezd46ar7yv9implpd (Resources download)
+
+COMMENTS: 0
